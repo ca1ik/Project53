@@ -7,6 +7,7 @@ int main() {
  pointVar = &var;
  // var degerini yazdir
  cout << "var = " << var << endl;
+ 
  // *pointVar isaretcisini yazdir
  cout << "*pointVar = " << *pointVar << endl << endl;
  cout << "var degiskenin degerini 7 olarak degistir:" << endl;
@@ -15,9 +16,14 @@ int main() {
  // var degerini yazdir
  cout << "var = " << var << endl;
  // *pointVar isaretcisini yazdir
+ 
+ 
  cout << "*pointVar = " << *pointVar << endl << endl;
+ 
  cout << "*pointVar isaretcisinin degerini 16 olarak degistir:" << endl;
+ 
  // dolaylı olarak var degisken degeri 16 olarak degisecektir
+ 
  *pointVar = 16;
  // var degerini yazdir
  cout << "var = " << var << endl;
