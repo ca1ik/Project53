@@ -8,6 +8,7 @@ int main() {
  // var degerini yazdir
  cout << "var = " << var << endl;
  
+ 
  // *pointVar isaretcisini yazdir
  cout << "*pointVar = " << *pointVar << endl << endl;
  cout << "var degiskenin degerini 7 olarak degistir:" << endl;
